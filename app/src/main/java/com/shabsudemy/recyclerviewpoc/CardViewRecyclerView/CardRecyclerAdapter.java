@@ -59,8 +59,8 @@ public class CardRecyclerAdapter extends RecyclerView.Adapter<CardRecyclerAdapte
 
         void setDetails(NormalRecyclerViewDataModel normalRecyclerViewDataModel) {
             name.setText(normalRecyclerViewDataModel.getName());
-            value1.setText(String.valueOf(normalRecyclerViewDataModel.getValue1()));
-            value2.setText(String.valueOf(normalRecyclerViewDataModel.getValue2()));
+            value1.setText("Serial No:0986"+String.valueOf(normalRecyclerViewDataModel.getValue1()));
+            value2.setText("Seat Number:536"+String.valueOf(normalRecyclerViewDataModel.getValue2()));
             value22.setText(String.valueOf(normalRecyclerViewDataModel.getValue2()));
         }
     }

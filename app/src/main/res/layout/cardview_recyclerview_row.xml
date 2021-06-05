@@ -3,9 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="20dp"
-    app:cardCornerRadius="30dp"
-    app:cardBackgroundColor="@color/teal_200">
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="#CDC392"
+    app:cardElevation="2dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="sample Text"
-                android:textColor="@color/black"
+                android:textColor="#114B5F"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -35,9 +37,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="right"
                 android:text="sample Text"
-                android:textColor="#E61111"
-                android:textSize="20sp"
-                android:textStyle="italic" />
+                android:textColor="#648DE5"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/cardvalue2Textview"
@@ -45,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="sample Text"
-                android:textColor="@color/purple_500"
+                android:textColor="#03B5AA"
                 android:textSize="20sp"
                 android:textStyle="normal" />
         </LinearLayout>
@@ -63,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="32"
-                android:textColor="@color/purple_500"
+                android:textColor="#304C89"
                 android:textSize="50sp"
                 android:textStyle="normal" />
 
