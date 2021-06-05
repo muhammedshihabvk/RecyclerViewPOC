@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingHorizontal="10dp"
+    android:background="@color/teal_200"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/rowNameTextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Name Text"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/tickSampleIMage"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
+</LinearLayout>

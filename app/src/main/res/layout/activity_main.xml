@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="RecyclerView 3" />
+        android:text="Single Item Select RecyclerView" />
 
     <Button
         android:id="@+id/recyclerviewButton4"

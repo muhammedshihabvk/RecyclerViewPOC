@@ -1,5 +1,7 @@
 package com.shabsudemy.recyclerviewpoc.NormalRecyclerView;
 
+import androidx.annotation.Nullable;
+
 public class NormalRecyclerViewDataModel {
 
     private String name;

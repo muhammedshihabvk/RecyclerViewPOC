@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.shabsudemy.recyclerviewpoc.CardViewRecyclerView.CardViewRecyclerViewActivity;
 import com.shabsudemy.recyclerviewpoc.NormalRecyclerView.RecyclerView1Activity;
+import com.shabsudemy.recyclerviewpoc.SingleItemSelectRecyclerView.SingleItemSelectRecyclerViewActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -50,8 +51,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(i);
                 break;
             case R.id.recyclerviewButton3:
-                //                i = new Intent(this, RecyclerView1Activity.class);
-                //                startActivity(i);
+                i = new Intent(this, SingleItemSelectRecyclerViewActivity.class);
+                startActivity(i);
                 break;
             case R.id.recyclerviewButton4:
                 //                i = new Intent(this, RecyclerView1Activity.class);
