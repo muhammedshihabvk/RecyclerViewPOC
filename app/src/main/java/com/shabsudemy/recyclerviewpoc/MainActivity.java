@@ -7,6 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.shabsudemy.recyclerviewpoc.CardViewRecyclerView.CardViewRecyclerViewActivity;
 import com.shabsudemy.recyclerviewpoc.NormalRecyclerView.RecyclerView1Activity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -45,8 +46,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(i);
                 break;
             case R.id.recyclerviewButton2:
-                //                i = new Intent(this, RecyclerView1Activity.class);
-                //                startActivity(i);
+                i = new Intent(this, CardViewRecyclerViewActivity.class);
+                startActivity(i);
                 break;
             case R.id.recyclerviewButton3:
                 //                i = new Intent(this, RecyclerView1Activity.class);
