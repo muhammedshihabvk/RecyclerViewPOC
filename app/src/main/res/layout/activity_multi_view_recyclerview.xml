@@ -7,7 +7,7 @@
     tools:context=".MultiViewRecyclerView.MultiViewRecyclerviewActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:background="#2A8363"
+        android:background="#8B9793"
         android:id="@+id/multiViewRecyclerview"
         android:layout_width="409dp"
         android:layout_height="729dp"
