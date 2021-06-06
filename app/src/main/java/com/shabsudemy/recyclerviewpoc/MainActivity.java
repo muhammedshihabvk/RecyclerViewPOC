@@ -8,8 +8,10 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.shabsudemy.recyclerviewpoc.CardViewRecyclerView.CardViewRecyclerViewActivity;
+import com.shabsudemy.recyclerviewpoc.MultiSelectionRecyclerView.MultiSelectionRecyclerView;
 import com.shabsudemy.recyclerviewpoc.NormalRecyclerView.RecyclerView1Activity;
 import com.shabsudemy.recyclerviewpoc.SingleItemSelectRecyclerView.SingleItemSelectRecyclerViewActivity;
+import com.shabsudemy.recyclerviewpoc.SwipeItemRecyclerView.SwipeItemRecyclerViewActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -55,12 +57,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(i);
                 break;
             case R.id.recyclerviewButton4:
-                //                i = new Intent(this, RecyclerView1Activity.class);
-                //                startActivity(i);
+                i = new Intent(this, MultiSelectionRecyclerView.class);
+                startActivity(i);
                 break;
             case R.id.recyclerviewButton5:
-                //                i = new Intent(this, RecyclerView1Activity.class);
-                //                startActivity(i);
+                i = new Intent(this, SwipeItemRecyclerViewActivity.class);
+                startActivity(i);
                 break;
             default:
                 break;

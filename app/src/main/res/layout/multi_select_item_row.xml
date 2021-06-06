@@ -12,15 +12,16 @@
         android:textColor="@color/white"
         android:layout_weight="1"
         android:textStyle="bold"
-        android:id="@+id/rowNameTextview"
+        android:gravity="center"
+        android:id="@+id/multiselectRowNameTextview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
         android:text="Name Text"
         android:textSize="20sp" />
 
     <ImageView
-        android:id="@+id/tickSampleIMage"
+        android:id="@+id/multiselectRowTickSampleIMage"
         android:layout_width="208dp"
         android:layout_height="80dp"
         android:layout_weight="1"

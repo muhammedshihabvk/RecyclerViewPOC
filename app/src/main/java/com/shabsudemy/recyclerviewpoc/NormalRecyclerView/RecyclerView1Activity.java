@@ -38,7 +38,7 @@ public class RecyclerView1Activity extends AppCompatActivity {
 
     private void createListData() {
         for (int i = 0; i < 100; i++) {
-            dataModelsList.add(new NormalRecyclerViewDataModel("name" + String.valueOf(i), i + 10, i + 20));
+            dataModelsList.add(new NormalRecyclerViewDataModel("shabzz" + String.valueOf(i), i + 10, i + 20));
         }
     }
 }

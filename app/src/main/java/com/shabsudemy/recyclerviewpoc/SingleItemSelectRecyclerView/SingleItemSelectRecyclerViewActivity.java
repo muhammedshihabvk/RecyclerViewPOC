@@ -32,8 +32,6 @@ public class SingleItemSelectRecyclerViewActivity extends AppCompatActivity {
 
         createListData();
 
-
-
         singleSelectRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         singleSelectRecyclerView.addItemDecoration(new DividerItemDecoration(this,LinearLayoutManager.VERTICAL));
         singleItemRecycleAdapter = new SingleItemRecycleAdapter(this,dataModels);
