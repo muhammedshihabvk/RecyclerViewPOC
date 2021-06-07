@@ -72,7 +72,9 @@ public class SwipeAdapter extends RecyclerView.Adapter<SwipeAdapter.SwipeViewHol
                 public void onClick(View v) {
                     Toast.makeText(context, "delete icon clicked" + String.valueOf(getAdapterPosition()), Toast.LENGTH_SHORT).show();
                     dataModelList.remove(getAdapterPosition());
-                    notifyDataSetChanged();
+                    notifyItemRemoved(getAdapterPosition()); //for for update row removed
+//                    notifyItemChanged(getAdapterPosition());//for update row
+//                    notifyDataSetChanged(); //to notify entire adapter data
                 }
             });
         }
@@ -80,5 +82,10 @@ public class SwipeAdapter extends RecyclerView.Adapter<SwipeAdapter.SwipeViewHol
         public void bindData(EmployeeModel employeeModel) {
             textView.setText(employeeModel.getName());
         }
+    }
+
+    interface Communincator{
+        void edit(int position);
+        void delete(int postion);
     }
 }
